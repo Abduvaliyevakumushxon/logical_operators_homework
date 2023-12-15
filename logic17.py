@@ -6,4 +6,11 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x1=a%10
+    x2=a//10000
+    x3=a//1000
+    x4=a//100
+    x5=a//10
+
+    return x1<x2<x3<x4<x5
+print(main(12345))
